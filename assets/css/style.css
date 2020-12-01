@@ -2,9 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
 
-a {
-    color: #fff;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
 }
+/* -----------------------------LINK */
+
 
 /* -----------------------------NAVBAR */
 .navbar-brand {
@@ -16,7 +20,9 @@ a {
 
 .navbar-subtitle {
     font-family: 'Montserrat';
+    font-weight: 200;
     margin: 0 16px 0 16px;
+    color: #F7F7FF;
 }
 
 .navbar-nav {
