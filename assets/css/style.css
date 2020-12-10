@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-/* ------------------------------- Header ----------------------*/
+/* --------------------------------- HEADER ----------------------------------*/
 .landing {
     height: 100vh;
     margin-top: 60px;
@@ -69,6 +69,7 @@ a {
     color: #fff;
     border-bottom: 2px solid #fc798c;
     padding-bottom: 6px;
+    /* text-shadow: 2px 2px 8px black; NOT WORKING! */
 }
 
 .btn {
@@ -76,10 +77,10 @@ a {
     border-radius: 0;
     text-transform: uppercase;
     padding: .5rem 1.2rem;  
-    
+    letter-spacing: 1.5px;
 }
 
-/* ----------------------------- NAVBAR --------------------- */
+/* ---------------------------------- NAVBAR --------------------------------- */
 
 .navbar {
     background-color: #2c2c54;
@@ -92,12 +93,12 @@ a {
     /* position: relative; */
 }
 
-.navbar-brand {
-    /* font-family: 'Cinzel Decorative','Pacifico', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+/* .navbar-brand {
+    font-family: 'Cinzel Decorative','Pacifico', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     margin: 0 16px 0 12px;
-    text-align: center; */
-    }
-
+    text-align: center;
+} */ 
+/* --- DECIDED NOT TO USE --- */
 .navbar-subtitle {
     font-family: 'Montserrat';
     font-weight: 200;
@@ -139,15 +140,17 @@ a.nav-link {
     color: #fc798c!important;
 }
 
-/* ----------------------------Container --------------------- */
+/* -------------------------------  CONTAINER ------------------------------ */
 
 .training {
     display: border-box;
     font-family: 'Montserrat';
     font-weight: 600;
     text-align: center;
+    text-transform:uppercase;
     font-size: 2.5em;
     color: #2c2c54;
+    letter-spacing: 2px;
 
 }
 
@@ -232,7 +235,7 @@ section .container {
 }
 
 
-/* --------------------------- About ----------------------- */
+/* ------------------------------ ABOUT --------------------------------- */
 
 .about-me .content {
     color: #fff;
@@ -263,9 +266,7 @@ section .container {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
+/*-------------------------------  COUNTS  ------------------------------------*/
 .counts {
   padding: 70px 0 60px;
 }
@@ -305,9 +306,7 @@ section .container {
   color: #fc798c;
 }
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
+/*--------------------------------  SKILLS  -------------------------------------*/
 .skills .progress {
   height: 50px;
   display: block;
@@ -341,9 +340,7 @@ section .container {
 }
 
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
+/*------------------------------- TESTIMONIALS  ----------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
@@ -403,46 +400,84 @@ section .container {
 }
 
 
-/* --------------------------- Carousel ----------------------- */
+/* ----------------------------  CONTACT FORM  -------------------------- */
 
-/* .owl-carousel {
-    display: none;
-    width: 100%;
-    z-index: 1;
+.form-header{
+    margin: -25px 0 15px 0;
+    padding: 3px 0 0 3px;
 }
 
-.no-js .owl-carousel, .owl-carousel.owl-loaded {
-    display: block;
+.form-header p {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 1px 1px 5px black;
+    letter-spacing: 1.5px;
 }
 
-.owl-carousel, .owl-carousel .owl-item {
-    -webkit-tap-highlight-color: transparent;
-    position: relative;
+.purple-gradient {
+    background: linear-gradient(40deg,#5454a0,#fc5f77) !important;
+}
+.card {
+    border: 0;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5), 0 3px 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5), 0 3px 10px 0 rgba(0,0,0,0.5);
 }
 
-.testimonials .owl-dot.active {
-    background-color: #fc798c !important;
+.card-body {
+    ;
 }
 
-.testimonials .owl-dot {
-    display: inline-block;
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.3) !important;
+.md-form {
+    margin: auto;
+    margin-top:15px;
+    margin-bottom:5px;
+    padding: 5px 0 5px;
 }
-
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-    background: 0px 0px;
-    color: inherit;
+.card-body .w70 {
+    width:70%;
+}
+.md-form label {
+    font-family:'Montserrat';
+    font-size:18px;
+}
+.md-form input,
+.md-form textarea {
+    padding:2px 0;
     border: none;
-    font: inherit;
-    padding: 0px !important;
-} */
-/* ----------------------------Footer------------------------- */
+    border-bottom: 2px solid #2C2C54;
+    outline: none !important;
+    color: #333;
+    font-family: 'Montserrat'
+}
+
+.md-form .form-control:focus {
+    outline: none!important;
+}
+
+.btn-outline-info {
+    color: #5454A0;
+    border-color: #5454A0;
+    font-size:22px;
+    letter-spacing: 2px;
+    font-family:'Montserrat', Roboto;
+    font-weight:600;
+}
+
+.btn-outline-info .btn-outline-info:hover, .btn-outline-info:focus, .btn-outline-info:active, .btn-outline-info.active, .open>.dropdown-toggle.btn-outline-info .btn-outline-info:active:focus {
+    background-color: #5454A0;
+    color: #fff ;
+    font-size:22px;
+    letter-spacing: 2px;
+    font-family:'Montserrat', Roboto;
+    font-weight:600;
+}
 
 
+
+/* -------------------------------  FOOTER  ------------------------ */
 
 .footer {
     display: flex;
