@@ -21,7 +21,7 @@ a {
 
 /* --------------------------------- HEADER ----------------------------------*/
 .landing {
-    height: 100vh;
+    height: 86vh;
     margin-top: 60px;
 }
 
@@ -169,8 +169,8 @@ a.nav-link {
 
 
 
-# Sections General
---------------------------------------------------------------*/
+ Sections General
+*
 section {
   overflow: hidden;
   position: absolute;
@@ -427,7 +427,7 @@ section .container {
 }
 
 .card-body {
-    ;
+    
 }
 
 .md-form {
@@ -460,19 +460,19 @@ section .container {
 .btn-outline-info {
     color: #5454A0;
     border-color: #5454A0;
-    font-size:22px;
+    font-size:18px;
     letter-spacing: 2px;
     font-family:'Montserrat', Roboto;
     font-weight:600;
 }
 
 .btn-outline-info .btn-outline-info:hover, .btn-outline-info:focus, .btn-outline-info:active, .btn-outline-info.active, .open>.dropdown-toggle.btn-outline-info .btn-outline-info:active:focus {
-    background-color: #5454A0;
-    color: #fff ;
-    font-size:22px;
-    letter-spacing: 2px;
-    font-family:'Montserrat', Roboto;
-    font-weight:600;
+    background-color: #5454A0 !important;
+    color: #fff !important;
+    font-size:18px !important;
+    letter-spacing: 2px !important;
+    font-family:'Montserrat', Roboto !important;
+    font-weight:600 !important;
 }
 
 
@@ -503,7 +503,8 @@ section .container {
 }
 
 .footer .social > * {
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 /*============= MEDIA QUERIES =============*/
