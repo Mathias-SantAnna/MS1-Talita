@@ -394,7 +394,7 @@ section .container {
     line-height: 1;
     display: inline-block;
     text-transform: none;
-    speak: none;
+
     -webkit-font-smoothing: antialiased;
     font-family: 'boxicons' !important;
 }
@@ -425,11 +425,7 @@ section .container {
     -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5), 0 3px 10px 0 rgba(0,0,0,0.5);
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5), 0 3px 10px 0 rgba(0,0,0,0.5);
 }
-
-.card-body {
-    
-}
-
+ 
 .md-form {
     margin: auto;
     margin-top:15px;
