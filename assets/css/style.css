@@ -21,7 +21,7 @@ a {
 
 /* --------------------------------- HEADER ----------------------------------*/
 .landing {
-    height: 86vh;
+    height: 95vh;
     margin-top: 60px;
 }
 
@@ -80,25 +80,59 @@ a {
     letter-spacing: 1.5px;
 }
 
+/* ----------------Header-footer--------------------- */
+
+.header-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    background-color:transparent;
+}
+
+.header-footer a {
+    color: #fff;
+}
+
+
+.header-footer a:hover {
+    color: #fc798c;
+}
+
+.header-footer .social > * {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
 /* ---------------------------------- NAVBAR --------------------------------- */
 
 .navbar {
     background-color: #2c2c54;
-    box-shadow: 0 .4rem .4rem rgba(0,0,0,.1);
+    box-shadow: 0 .4rem .4rem rgba(0,0,0,.2);
     
 }
 
 .navbrand img {
-    height: 2rem;
-    /* position: relative; */
+    width: .5rem;
+    top: 15px;
 }
 
-/* .navbar-brand {
-    font-family: 'Cinzel Decorative','Pacifico', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    margin: 0 16px 0 12px;
-    text-align: center;
-} */ 
-/* --- DECIDED NOT TO USE --- */
+@media (max-width: 576px) {
+    .navbar-brand {
+    width: 270px;
+    }
+
+}
+
+
+.navbar-brand {
+    margin: 0 5px 0 5px;
+    
+}
+
 .navbar-subtitle {
     font-family: 'Montserrat';
     font-weight: 200;
@@ -119,6 +153,11 @@ a {
     font-size: 0.75em;
 }
 
+.navbar-toggler {
+    float: right;
+    margin-right: 3px;
+}
+
 .nav-item {
     padding: .5rem;
     letter-spacing: .1rem;
@@ -126,6 +165,7 @@ a {
 a.nav-link {
     align-items: center;
 }
+
 
 .navbar a:hover {
     border-bottom: #fc798c 1.5px solid;
@@ -153,6 +193,8 @@ a.nav-link {
     letter-spacing: 2px;
 
 }
+
+
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
@@ -432,6 +474,17 @@ section .container {
     margin-bottom:5px;
     padding: 5px 0 5px;
 }
+
+.card-body .form-title {
+    display: border-box;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: center;
+    text-transform:uppercase;
+    
+    color: #2c2c54;
+    letter-spacing: 2px;}
+
 .card-body .w70 {
     width:70%;
 }
