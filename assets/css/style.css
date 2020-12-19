@@ -69,8 +69,8 @@ a {
     color: #fff;
     border-bottom: 2px solid #fc798c;
     padding-bottom: 6px;
-    text-shadow: 2px 2px 8px black; 
-}  NOT WORKING!*/
+    text-shadow: 2px 2px 8px black; NOT WORKING!
+} */
 
 .btn {
     border-width: medium;
@@ -189,7 +189,6 @@ a.nav-link {
 /* -------------------------------  CONTAINER ------------------------------ */
 
 .training {
-    display: border-box;
     font-family: 'Montserrat';
     font-weight: 600;
     text-align: center;
@@ -476,7 +475,6 @@ section .container {
 }
 
 .card-body .form-title {
-    display: border-box;
     font-family: 'Montserrat';
     font-weight: 600;
     text-align: center;
@@ -497,14 +495,13 @@ section .container {
     padding:2px 0;
     border: none;
     border-bottom: 2px solid #2C2C54;
-    outline: none !important;
     color: #333;
     font-family: 'Montserrat'
 }
 
-.md-form .form-control:focus {
+/* .md-form .form-control:focus {
     outline: none!important;
-}
+} */
 
 .btn-outline-info {
     color: #5454A0;
