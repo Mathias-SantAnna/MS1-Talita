@@ -65,12 +65,12 @@ a {
     text-align: center;
 }
 
-.text-light .text-uppercase span {
+/* .text-light .text-uppercase span {
     color: #fff;
-    border-bottom: 2px solid #fc798c !important;
+    border-bottom: 2px solid #fc798c;
     padding-bottom: 6px;
-    /* text-shadow: 2px 2px 8px black; NOT WORKING! */
-}
+    text-shadow: 2px 2px 8px black; 
+}  NOT WORKING!*/
 
 .btn {
     border-width: medium;
@@ -138,6 +138,12 @@ a {
     font-weight: 200;
     margin: 0 16px 0 12px;
     color: #F7F7FF;
+}
+
+@media all and (max-width: 576px) {
+  .mobhide {
+    display: none;
+  }
 }
 
 .navbar-dark {
