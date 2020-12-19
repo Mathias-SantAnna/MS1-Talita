@@ -61,13 +61,13 @@ a {
 .caption {
     z-index: 1;
     position: absolute;
-    top: 40%;
+    top: 30%;
     text-align: center;
 }
 
 .text-light .text-uppercase span {
     color: #fff;
-    border-bottom: 2px solid #fc798c;
+    border-bottom: 2px solid #fc798c !important;
     padding-bottom: 6px;
     /* text-shadow: 2px 2px 8px black; NOT WORKING! */
 }
@@ -422,12 +422,6 @@ section .container {
   z-index: 1;
 }
 
-@media (max-width: 767px) {
-  .testimonials {
-    margin: 10px 10px;
-  }
-}
-
 
 .bx {
     font-weight: normal;
@@ -544,7 +538,7 @@ section .container {
 
 .footer p {
     color: #fff;
-    margin-top: 5px;
+    margin-top: 3px;
     font-family: 'Montserrat';
 }
 .footer a:hover {
