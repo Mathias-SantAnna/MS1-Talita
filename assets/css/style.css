@@ -65,12 +65,12 @@ a {
     text-align: center;
 }
 
-/* .text-light .text-uppercase span {
+.text-light > span {
     color: #fff;
     border-bottom: 2px solid #fc798c;
-    padding-bottom: 6px;
-    text-shadow: 2px 2px 8px black; NOT WORKING!
-} */
+    padding-bottom: 2px;
+    text-shadow: 2px 2px rgba(0,0,0,.6);
+}
 
 .btn {
     border-width: medium;
@@ -99,12 +99,19 @@ a {
 
 .header-footer a:hover {
     color: #fc798c;
+    transition: all 0.2s ease-in-out 0.2s;
+    -moz-transition: all 0.2s ease-in-out 0.2s;
+    -webkit-transition: all 0.2s ease-in-out 0.2s;
 }
+
 
 .header-footer .social > * {
     margin-right: 20px;
     margin-left: 20px;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
 }
+
+
 
 
 /* ---------------------------------- NAVBAR --------------------------------- */
