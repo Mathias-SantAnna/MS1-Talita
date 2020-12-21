@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
@@ -21,7 +20,7 @@ a {
 
 /* --------------------------------- HEADER ----------------------------------*/
 .landing {
-    height: 100vh;
+    height: 95vh;
     margin-top: 60px;
 }
 
@@ -119,25 +118,14 @@ a {
 .navbar {
     background-color: #2c2c54;
     box-shadow: 0 .4rem .4rem rgba(0,0,0,.2);
-    
 }
 
 .navbrand img {
     width: .5rem;
-    top: 15px;
 }
-
-@media (max-width: 576px) {
-    .navbar-brand {
-    width: 270px;
-    }
-
-}
-
 
 .navbar-brand {
     margin: 0 5px 0 5px;
-    
 }
 
 .navbar-subtitle {
@@ -151,14 +139,33 @@ a {
   .mobhide {
     display: none;
   }
+  .navbar-brand {
+    width: 270px;
+  }
+  .navbar {
+      height: 4rem;
+  }
+}
+
+@media all and (min-width: 578px) {
+  .desktophide {
+    display: none;
+  }
 }
 
 .navbar-dark {
     display: flex;
     align-items: center;
     color: #fff;
-    
-}    
+}  
+
+.navbar-dark .navbar-brand {
+    font-family: 'Pacifico';
+    color: #fc798c;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-weight: 200;
+}
 
 .navbar-nav {
     float: right;
@@ -179,7 +186,6 @@ a.nav-link {
     align-items: center;
 }
 
-
 .navbar a:hover {
     border-bottom: #fc798c 1.5px solid;
 }
@@ -192,6 +198,8 @@ a.nav-link {
 .navbar-nav .nav-link.active {
     color: #fc798c!important;
 }
+
+
 
 /* -------------------------------  CONTAINER ------------------------------ */
 
@@ -232,8 +240,7 @@ section {
   top: 140px;
   bottom: 100%;
   opacity: 0;
-  transition: ease-in-out 0.4s;
-  z-index: 2;
+  
 }
 
 section.section-show {
@@ -271,7 +278,7 @@ section .container {
 
 .section-title h2::after {
   content: "";
-  width: 120px;
+  width: 28%;
   height: 1px;
   display: inline-block;
   background: #fc798c;
@@ -451,7 +458,7 @@ section .container {
 /* ----------------------------  CONTACT FORM  -------------------------- */
 
 .form-header{
-    margin: -25px 0 15px 0;
+    margin: -10px 0 15px 0;
     padding: 3px 0 0 3px;
 }
 
