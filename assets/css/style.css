@@ -147,7 +147,7 @@ a {
   }
 }
 
-@media all and (min-width: 578px) {
+@media all and (min-width: 576px) {
   .desktophide {
     display: none;
   }
