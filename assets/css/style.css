@@ -140,7 +140,8 @@ a {
     display: none;
   }
   .navbar-brand {
-    width: 270px;
+    width: 270px;git add . 
+    git commit -m
   }
   .navbar {
       height: auto;
@@ -439,6 +440,7 @@ section .container {
   border-radius: 6px;
   position: relative;
   z-index: 1;
+  height: 250px;
 }
 
 
