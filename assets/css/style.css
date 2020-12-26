@@ -140,8 +140,7 @@ a {
     display: none;
   }
   .navbar-brand {
-    width: 270px;git add . 
-    git commit -m
+    width: 270px;
   }
   .navbar {
       height: auto;
@@ -230,6 +229,11 @@ a.nav-link {
     margin: 2px 0 2px 2px;
 }
 
+@media all and (min-width: 576px) {
+  .videoclip {
+      max-width: 500px;
+  }
+}
 
 
  Sections General
@@ -263,6 +267,8 @@ section .container {
   section.section-show {
     top: 80px;
   }
+
+  
 }
 
 .section-title h2 {

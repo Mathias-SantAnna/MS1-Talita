@@ -55,7 +55,7 @@ This website was created for the purpose of completing the first Milestone Proje
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Purple Space Cadet ![#2C2C54](https://placehold.it/15/2C2C54/000000?text=+), and Rosé Ultra Red ![#FC798C](https://placehold.it/15/FC798C/000000?text=+).
+        -   The two main colours used are Purple Space Cadet ![#2C2C54](https://place-hold.it/15/2C2C54/000000?text=+), and Rosé Ultra Red ![#FC798C](https://place-hold.it/15/FC798C/000000?text=+).
     -   #### Typography
         -   The Logo font on mobile is Pacifico, it is clean and reminds of a signature.
         -   The Roboto font is the main font used throughout the whole website with Trebuchet MS as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto font is a clean font used frequently in programming, so it is both attractive and appropriate.
@@ -65,13 +65,13 @@ This website was created for the purpose of completing the first Milestone Proje
 
 *   ### Wireframes
 
-    -   [Home Page Wireframe](https://github.com/)
+    -   [Home Page Wireframe](https://github.com/Mathias-SantAnna/MS1-Talita/blob/master/wireframes/Wireframe-Home.jpg)
 
-    -   [Training Programs Page Wireframe](https://github.com/)
+    -   [Training Programs Page Wireframe](https://github.com/Mathias-SantAnna/MS1-Talita/blob/master/wireframes/Wireframe-Training.jpg)
 
-    -   [About Page Wireframe](https://github.com/)
+    -   [About Page Wireframe](https://github.com/Mathias-SantAnna/MS1-Talita/blob/master/wireframes/Wireframe-About.jpg)
 
-    -   [Contact Us Page Wireframe](https://github.com/)
+    -   [Contact Us Page Wireframe](https://github.com/Mathias-SantAnna/MS1-Talita/blob/master/wireframes/Wireframe-Contact.jpg)
 
 ## Features
 
@@ -196,7 +196,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     
 
 ### Further Testing
-
+Tests table ![here](https://github.com/Mathias-SantAnna/MS1-Talita/blob/master/assets/images/TestCases-MS1.jpg)
 -   The Website was tested on Google Chrome, Opera, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
