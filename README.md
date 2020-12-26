@@ -143,8 +143,9 @@ contact form Send button change from
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Mathias-SantAnna/MS1-Talita/blob/master/assets/Test_Results%20_W3_VALIDATOR.pdf)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Mathias-SantAnna/MS1-Talita/blob/master/assets/Test_Results_W3_VALIDATOR.pdf)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Mathias-SantAnna/MS1-Talita/blob/master/assets/W3C_CSS_Validator_Results.pdf)
+
 
 ### Testing User Stories from User Experience (UX) Section
 
