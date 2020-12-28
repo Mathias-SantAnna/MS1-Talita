@@ -415,13 +415,7 @@ section .container {
   color: #fff;
 }
 
-@media (max-width: 768px) {
-    .testimonials .testimonial-item {
-    box-sizing: content-box;
-    min-height: 180px;
-    
-    }
-}
+
 
 
 .testimonials .testimonial-item .testimonial-img {
@@ -458,6 +452,14 @@ section .container {
   height: 250px;
 }
 
+@media (min-width: 768px) {
+    .testimonials .testimonial-item p{
+    box-sizing: content-box;
+    /* min-height: 180px; */
+    height: 70px;
+    
+    }
+}
 
 .bx {
     font-weight: normal;
