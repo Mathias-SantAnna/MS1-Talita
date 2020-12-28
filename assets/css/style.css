@@ -60,7 +60,7 @@ a {
 .caption {
     z-index: 1;
     position: absolute;
-    top: 30%;
+    top: 25%;
     text-align: center;
 }
 
@@ -411,9 +411,18 @@ section .container {
 /*------------------------------- TESTIMONIALS  ----------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  min-height: 320px;
+  min-height: 260px;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+    .testimonials .testimonial-item {
+    box-sizing: content-box;
+    min-height: 180px;
+    
+    }
+}
+
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
