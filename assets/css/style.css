@@ -449,14 +449,13 @@ section .container {
   border-radius: 6px;
   position: relative;
   z-index: 1;
-  height: 250px;
+  height: 265px;
 }
 
 @media (min-width: 768px) {
     .testimonials .testimonial-item p{
     box-sizing: content-box;
-    /* min-height: 180px; */
-    height: 70px;
+    height: 80px;
     
     }
 }
