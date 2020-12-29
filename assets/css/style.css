@@ -302,6 +302,10 @@ section .container {
   color: #fff;
 }
 
+/* .blog-post .post{
+    overflow-y: scroll;
+    height: 750px;
+} */
 
 /* ------------------------------ ABOUT --------------------------------- */
 
@@ -411,7 +415,7 @@ section .container {
 /*------------------------------- TESTIMONIALS  ----------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  min-height: 260px;
+  min-height: 160px ;
   color: #fff;
 }
 
@@ -447,15 +451,21 @@ section .container {
   background: rgba(255, 255, 255, 0.1);
   position: relative;
   border-radius: 6px;
-  position: relative;
   z-index: 1;
-  height: 265px;
+  
+  
 }
 
-@media (min-width: 768px) {
-    .testimonials .testimonial-item p{
-    box-sizing: content-box;
-    height: 80px;
+@media (max-width: 768px) {
+    .testimonials .testimonial-item p {
+    min-height: 30px;
+    
+    }
+}
+
+@media (max-width: 576px) {
+    .testimonials .testimonial-item p {
+    min-height: 45px;
     
     }
 }
