@@ -135,6 +135,8 @@ contact form Send button change from
     - tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README
 1. [Google Chrome Developer Tools:](https://developers.google.com/web/tools/chrome-devtools)
     - Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+1. [Responsinator:](https://www.responsinator.com/)
+    - The Responsinator is designed to test responsive websites on different device resolutions.
 
 
 
@@ -154,36 +156,35 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation. - Testing was performed to ensure information was displayed on the Home Page.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Get Started" Call to action button which brings them to the Training Programs page. - Testing was performed to ensure the "call to action" button it's redirecting to page.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the Training Programs.
+        1. Detailed initial test-user as follows. Upon entering the site, users are expected to be welcomed with a friendly navigation bar to select which page they want to go and to find a teaser button to incentive them to interact with the training programs available. The actual result is the homepage automatically greeting with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is also a Hero Image with Text and a "Get Started" Call to action button which brings them to the Training Programs page. - Testing was performed to ensure the "call to action" button it's redirecting to each respective page. The outcome of the testing demonstrated that each "call to action" button is corresponding with each expected relevant content.
+        2. The main points are made immediately with the hero image as the objective with the input image is to hold the attention of the user in relation to the purpose of the website.  The actual result concerning the first impressions of the visitors with the background picture achieved the expected which was to indicate the website to be related to healthy exercises and training programs.
+        3. The user has two options, click the call-to-action buttons, or scroll down, both of which will lead to the same place, to learn more about the Training Programs. The testing outcome was that all the call-to-action buttons were working fine leading to the Training Programs. 
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content. - Testing was performed on all Navigation links to ensure the easy navigation.
+    2. As a First Time Visitor will be able to easily navigate throughout the site to find content. - Testing was performed on all Navigation links ensuring easy navigation. The actual result after the testing each link was that the effortless navigability planned for this webpage is in place.
 
-        1. The site has been designed to be fluid. At the top of each page there is a clean navigation bar. 
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page. - 
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        1. The site has been designed to be fluid. At the top of each page, there is a clean navigation bar. All paged were tested verifying the presence of the navigation bar which means in the final result the fluidity outlined was proven.
+        2. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is. The form was also created to be fulfilled in full which means the form cannot be submitted unless the user completes each blank space requested. The implementation of the form has also been tested and the result is as expected.
 
     3. As a First Time Visitor, I want to view the website on any mobile device in a clear ans easy way. - Testing was performed on all devices to ensure the Website was responsive.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        1. The website was designed to be fluid and never to entrap the user. At the top of each page, there is a clean navigation bar, each link clearly describes the page on which they will end. After full navigation, the necessary tests to check if there is a tidy navigation bar accurately describing the page on which the users will finish were performed. The result of those tests confirmed the fluidity of the site, ensuring that the user is free to browse without interruptions.
 
-    4. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+    4. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are. -  The outcome of this testing process was the validation of the information given.
+        1. Once the new visitor has read the "About".
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+        3. At the bottom of the Contact page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new training programs.
+    1. The purpose of this website is not only to inform customers but also to keep them updated. A Returning Visitor would be back for example to find new training programs.
 
-        1. These are clearly shown in the banner message.
-        2. When the banner is clicked, they are redirected to the to blog posts of Training Programs and call to action.
+        1. These are clearly shown in the navigation bar button or "Get Started" call to action. 
+        2. When the button is clicked, they are redirected to the to blog posts of Training Programs -  The result was satisfactory, and achieved the goal of being a tool for the target audience. 
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the professional with any questions I may have.
 
-        1. The navigation bar clearly highlights the "Contact" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the professional on social media.
+        1. The navigation bar clearly highlights the "Contact" Page. - The testing phase went through each page ensuring the "Contact" Page is easily available and the result was adequate.
+        2. Here they can fill out the form on the page or are told that alternatively they can message the professional on social media. - Each stage for this process on the "Contact" page was tested feasible for users.
         3. The footer contains links to the organisations Facebook, Twitter and Instagram page.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
         
@@ -192,25 +193,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a Frequent User, I want to check to see if there are any newly training programs or videos.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
+        1. The user would already be comfortable with the website layout and can easily click the buttons and navigate through it.
 
     2. As a Frequent User, I want to check to see if there are any new blog posts.
 
-        1. The user would already be comfortable with the website layout and can easily click the buttons and 
+        1. The user would already be comfortable with the website layout and can easily click the buttons and navigate through it.
 
     
 
 ### Further Testing
 Tests table ![here](https://github.com/Mathias-SantAnna/MS1-Talita/blob/master/assets/images/TestCases-MS1.jpg)
--   The Website was tested on Google Chrome, Opera, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The Website was tested on Google Chrome, Firefox, Opera, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX. And tested on Responsinator as well.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
 -   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the page.
+    -   A white gap can be seen to the right of the page. It seems that is bootstrap bad behaviour, because it is only happenig some times on a few mobile devices.
 -   On some mobile devices, the navbar when scrolled down shrinks a bit, but when scrolled up it cames back to it's regular size.
     -   I tried to change the logo tor text but it didn't worked out.
 
@@ -238,6 +239,7 @@ The project was deployed to GitHub Pages using the following steps...
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone`, and then paste the URL you copied in Step 3.
+
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY

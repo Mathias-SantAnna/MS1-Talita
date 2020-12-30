@@ -136,7 +136,10 @@ a {
 }
 
 @media all and (max-width: 576px) {
-  .mobhide {
+  * {
+      margin-right: 0px;
+  }
+    .mobhide {
     display: none;
   }
   .navbar-brand {
@@ -228,13 +231,6 @@ a.nav-link {
     float: right;
     margin: 2px 0 2px 2px;
 }
-
-@media all and (min-width: 576px) {
-  .videoclip {
-      max-width: 500px;
-  }
-}
-
 
  Sections General
 *
@@ -598,9 +594,9 @@ section .container {
 /*============= MEDIA QUERIES =============*/
 
 /* Medium (md) devices (tablets, 768px and under) */
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
 
-}
+} */
 
 /*============ BOOTSTRAP BREAK POINTS:
 
