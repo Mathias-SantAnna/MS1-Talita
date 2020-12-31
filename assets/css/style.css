@@ -137,7 +137,7 @@ a {
 
 @media all and (max-width: 576px) {
   * {
-      margin-right: 0px;
+      margin-right: 0px !important;
   }
     .mobhide {
     display: none;
