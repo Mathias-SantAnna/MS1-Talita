@@ -285,4 +285,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   My Mentor for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+Antonio Rodriguez has mentored this project since the beginning. It was only possible to conclude it because of his support and advice. His main contributions were giving an initial North so that it was possible to start effectively, providing ideas, demonstrating the technical criteria and pointing out proper feedback on the errors that should be corrected.  In other words, his assistance was essential for the success of this project, so, I am taking the opportunity to express my gratitude for each mentoring session that enabled the competition this work.
+
+-   Tutor support at Code Institute for their support. 
+
+ They provided regularly points new contributors to documentation and submits pull requests to improve the guidance when the area were looking unclear. Answering my requests on time enabling me to improve my knowledge during the whole process of contributing smoother.
